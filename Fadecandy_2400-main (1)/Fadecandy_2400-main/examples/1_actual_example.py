@@ -9,7 +9,7 @@ client = opc.Client('localhost:7890')
 
 print (enumerate(led_colour))
 for item in enumerate(led_colour):
-    time.sleep(1)
+    time.sleep(0.1)
     print (item)
     if item[0]%2 == 0:
         #need to get values out of tuple
@@ -18,6 +18,7 @@ for item in enumerate(led_colour):
         r = r-120
         g = 255
         b = 255
+        
         
         #create changed tuple (uses some values from old and some new) 
         new_colour =(r,g,b)
