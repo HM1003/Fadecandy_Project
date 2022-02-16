@@ -216,4 +216,226 @@ for led in range(60): #pick out indeces: led = 0,1,2,3...
 
 #E bridge
 
+    leds[24] = (0,255,0)
+    time.sleep(.1)
+
+    leds[84] = (255,0,0)
+    time.sleep(.1)
+    
+    leds[144] = (255,0,0)
+    time.sleep(.1)
+    
+    leds[204] = (255,0,0)
+    time.sleep(.1)
+        
+    leds[264] = (255,0,0)
+    time.sleep(.1)
+
+    leds[324] = (255,0,0)
+    time.sleep(0.1)
+    
+# N first line
+
+    leds[85] = (255,0,0)
+    time.sleep(.1)
+    
+    leds[146] = (255,0,0)
+    time.sleep(.1)
+    
+    leds[207] = (255,0,0)
+    time.sleep(.1)
+        
+    leds[268] = (255,0,0)
+    time.sleep(.1)
+
+#N bridge
+    
+    leds[29] = (0,255,0)
+    time.sleep(.1)
+
+    leds[89] = (255,0,0)
+    time.sleep(.1)
+    
+    leds[149] = (255,0,0)
+    time.sleep(.1)
+    
+    leds[209] = (255,0,0)
+    time.sleep(.1)
+        
+    leds[269] = (255,0,0)
+    time.sleep(.1)
+
+    leds[329] = (255,0,0)
+    time.sleep(0.1)
+
+#N second line
+
+    leds[31] = (0,255,0)
+    time.sleep(.1)
+
+    leds[91] = (255,0,0)
+    time.sleep(.1)
+    
+    leds[151] = (255,0,0)
+    time.sleep(.1)
+    
+    leds[211] = (255,0,0)
+    time.sleep(.1)
+        
+    leds[271] = (255,0,0)
+    time.sleep(.1)
+
+    leds[331] = (255,0,0)
+    time.sleep(0.1)
+    
+#D first line
+
+    leds[32] = (0,255,0)
+    time.sleep(.1)
+
+    leds[33] = (0,255,0)
+    time.sleep(.1)
+
+    leds[34] = (0,255,0)
+    time.sleep(.1)
+
+    leds[332] = (255,0,0)
+    time.sleep(0.1)
+
+    leds[333] = (255,0,0)
+    time.sleep(0.1)
+
+    leds[334] = (255,0,0)
+    time.sleep(0.1)
+
+#D bridge    
+
+    leds[35] = (0,255,0)
+    time.sleep(.1)
+
+    leds[95] = (255,0,0)
+    time.sleep(.1)
+    
+    leds[155] = (255,0,0)
+    time.sleep(.1)
+    
+    leds[215] = (255,0,0)
+    time.sleep(.1)
+        
+    leds[275] = (255,0,0)
+    time.sleep(.1)
+
+    leds[335] = (255,0,0)
+    time.sleep(0.1)
+    
+#D second line
+
+    leds[37] = (0,255,0)
+    time.sleep(.1)
+
+    leds[97] = (255,0,0)
+    time.sleep(.1)
+    
+    leds[157] = (255,0,0)
+    time.sleep(.1)
+    
+    leds[217] = (255,0,0)
+    time.sleep(.1)
+        
+    leds[277] = (255,0,0)
+    time.sleep(.1)
+
+    leds[337] = (255,0,0)
+    time.sleep(0.1)
+
+#R first line
+
+    leds[38] = (0,255,0)
+    time.sleep(.1)
+
+    leds[39] = (0,255,0)
+    time.sleep(.1)
+
+    leds[40] = (0,255,0)
+    time.sleep(.1)
+
+    leds[41] = (0,255,0)
+    time.sleep(.1)
+
+    leds[158] = (255,0,0)
+    time.sleep(.1)
+
+    leds[159] = (255,0,0)
+    time.sleep(.1)
+
+    leds[160] = (255,0,0)
+    time.sleep(.1)
+
+    leds[161] = (255,0,0)
+    time.sleep(.1)
+
+    leds[101] = (255,0,0)
+    time.sleep(.1)
+
+    leds[219] = (255,0,0)
+    time.sleep(.1)
+        
+    leds[280] = (255,0,0)
+    time.sleep(.1)
+
+    leds[341] = (255,0,0)
+    time.sleep(0.1)
+    
+#R bridge
+
+    leds[48] = (0,255,0)
+    time.sleep(.1)
+
+    leds[107] = (255,0,0)
+    time.sleep(.1)
+    
+    leds[166] = (255,0,0)
+    time.sleep(.1)
+    
+    leds[225] = (255,0,0)
+    time.sleep(.1)
+        
+    leds[284] = (255,0,0)
+    time.sleep(.1)
+
+    leds[343] = (255,0,0)
+    time.sleep(0.1)
+
+#A first line
+
+    leds[167] = (255,0,0)
+    time.sleep(.1)
+
+    leds[168] = (255,0,0)
+    time.sleep(.1)
+
+    leds[169] = (255,0,0)
+    time.sleep(.1)
+
+    leds[170] = (255,0,0)
+    time.sleep(.1)
+
+#A bridge
+
+    leds[109] = (255,0,0)
+    time.sleep(.1)
+
+    leds[231] = (255,0,0)
+    time.sleep(.1)
+        
+    leds[292] = (255,0,0)
+    time.sleep(.1)
+
+    leds[353] = (255,0,0)
+    time.sleep(0.1)
+
+#A second line
+
+    
+
     
