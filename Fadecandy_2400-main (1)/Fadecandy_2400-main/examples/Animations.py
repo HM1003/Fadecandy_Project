@@ -38,8 +38,12 @@ if choice == '1':
                 leds[led[0]] = (64,224,208) #Turquoise
                 time.sleep(0.1)
                 client.put_pixels(leds)
-
-        
+                
+elif choice == '2':
+        number = 0
+        while number < 6:
+                      
+                
         
 ##for led in range(60): #picking out location of leds from column and rows. 
 ##    client.put_pixels(leds)
