@@ -64,7 +64,7 @@ for led in range(60): #picking out location of leds from column and rows.
     
 #H bridge. By grouping the letter into sections it is easier to modify the value and connect more letters. 
     
-    leds[6] = (255,255,0)
+    leds[6] = (255,255,0) #Using colors red and green to make yellow.
     time.sleep(.1)
     
     leds[66] = (255,255,0)
@@ -114,7 +114,7 @@ for led in range(60): #picking out location of leds from column and rows.
     time.sleep(.1)
 #U second line
 
-    leds[12] = (0,0,255)
+    leds[12] = (0,0,255) #Blue colour for letter M
     time.sleep(.1)
     
     leds[72] = (0,0,255)
@@ -163,7 +163,7 @@ for led in range(60): #picking out location of leds from column and rows.
     time.sleep(0.1)
 #M second line
 
-    leds[18] = (255,165,0)
+    leds[18] = (255,165,0) #Mixing red and green to make the colour orange for letter E
     time.sleep(.1)
 
     leds[78] = (255,165,0)
@@ -241,7 +241,7 @@ for led in range(60): #picking out location of leds from column and rows.
     
 # N first line
 
-    leds[85] = (255,0,0)
+    leds[85] = (255,0,0) #Red colour for letter N
     time.sleep(.1)
     
     leds[146] = (255,0,0)
@@ -275,7 +275,7 @@ for led in range(60): #picking out location of leds from column and rows.
 
 #N second line
 
-    leds[31] = (64,224,208)
+    leds[31] = (64,224,208) #Mixing R,G,B to make letter D turquoise.
     time.sleep(.1)
 
     leds[91] = (64,224,208)
@@ -335,7 +335,7 @@ for led in range(60): #picking out location of leds from column and rows.
     
 #D second line
 
-    leds[37] = (245,245,220)
+    leds[37] = (245,245,220)    # Mixing R,G,B to make colour Beige for Letter R
     time.sleep(.1)
 
     leds[97] = (245,245,220)
@@ -355,7 +355,7 @@ for led in range(60): #picking out location of leds from column and rows.
 
 #R first line
 
-    leds[38] = (245,245,220)
+    leds[38] = (245,245,220)    
     time.sleep(.1)
 
     leds[39] = (245,245,220)
@@ -393,7 +393,7 @@ for led in range(60): #picking out location of leds from column and rows.
     
 #R bridge
 
-    leds[48] = (238,232,170)
+    leds[48] = (238,232,170) #Mixing R,G,B to make colour Gold for letter A
     time.sleep(.1)
 
     leds[107] = (238,232,170)
@@ -440,6 +440,8 @@ for led in range(60): #picking out location of leds from column and rows.
     time.sleep(0.1)
 
 #A second line
+
+    
 
     
 
