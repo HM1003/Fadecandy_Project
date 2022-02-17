@@ -31,7 +31,7 @@ def rainbow(pixels, order):
 
             time.sleep(0.01)
 
-choice = raw_input("Choose animation?\n1.Loading Snake\n2.\n")
+choice = raw_input("Choose animation?\n1. Loading Snake\n2. Fading lines\n3. Light up row\n")
 
 if choice == '1':
         for led in enumerate(leds):
@@ -40,10 +40,29 @@ if choice == '1':
                 client.put_pixels(leds)
                 
 elif choice == '2':
-        number = 0
-        while number < 6:
-                      
-                
+        n = 0       
+        while n < 6:
+                     for colour in range(256):
+                             for led in range(60):
+                                     leds[60*n+led] = (colour,colour,0)
+                             client.put_pixels(leds)
+                             time.sleep(0.01)
+        n+=1
+        
+elif choice == '3':
+        rows = raw_input('Which row do you want to light up?(seperate with comma)')
+        rows = re.findall('\d+', rows)
+        rows_map = map(int, rows)
+        rows_list = list(rows_map)
+        pix = []
+        for row in rows_list:
+                if row > 5:
+                        print('Number is too large')
+                else:
+                        for x in range(row*60, row*60 + 60):
+                                pix.append(x)
+        rainbow(pix, 'asc')
+        
         
 ##for led in range(60): #picking out location of leds from column and rows. 
 ##    client.put_pixels(leds)
