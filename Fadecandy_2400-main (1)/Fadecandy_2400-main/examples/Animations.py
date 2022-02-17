@@ -22,7 +22,7 @@ def rainbow(pixels, order):
             rgb_fractional = colorsys.hsv_to_rgb(hue/360.0, s, v) #
             r_float, g_float, b_float = rgb_fractional[0], rgb_fractional[1], rgb_fractional[2]
             
-            rgb = (r_float*255, g_float,*255, b_float*255) #Tupel value for RGB
+            rgb = (r_float*255, g_float*255, b_float*255) #Tupel value for RGB
 
             for p in pixels:
                 leds[p] = rgb
@@ -31,9 +31,15 @@ def rainbow(pixels, order):
 
             time.sleep(0.01)
 
-choice = input("Choose animation?\n1.\n2.\n")
+choice = input("Choose animation?\n1\n2.\n")
 
-           
+if choice == '1':
+        for led in enumerate(leds):
+                leds[led[0]] = (0,255,0)
+                time.sleep(0.1)
+                client.put_pixels(leds)
+
+
         
 ##for led in range(60): #picking out location of leds from column and rows. 
 ##    client.put_pixels(leds)
