@@ -4,60 +4,60 @@ import random
 import colorsys
 import re
 
-leds = [(0,0,0)]*360 #white background
+leds = [(0,0,0)]*360 #background color
 
 client = opc.Client('localhost:7890') # host
 client.put_pixels(leds)
 
-#for led in leds: # pick out an element: led = (255,255,255)
-for led in range(60): #pick out indeces: led = 0,1,2,3...
+
+for led in range(60): #picking out location of leds from column and rows. 
     client.put_pixels(leds)
     
-    leds[0] = (0,255,0)
+    leds[0] = (0,255,0) #RGB sequence (Red,Green,Blue) with a maximum brightness of 255.
+    time.sleep(.1) #10ms delay
+    
+    leds[60] = (0,255,0) #Pixel from led matrix value is 60, this location is specified as leds[60].
     time.sleep(.1)
     
-    leds[60] = (255,0,0)
+    leds[120] = (0,255,0)
     time.sleep(.1)
     
-    leds[120] = (255,0,0)
-    time.sleep(.1)
-    
-    leds[180] = (255,0,0)
+    leds[180] = (0,255,0)
     time.sleep(.1)
         
-    leds[240] = (255,0,0)
+    leds[240] = (0,255,0)
     time.sleep(.1)
 
-    leds[300] = (255,0,0)
+    leds[300] = (0,255,0)
     time.sleep(0.1)
-#H line 
+#H first line 
 
     leds[4] = (0,255,0)
     time.sleep(.1)
     
-    leds[64] = (255,0,0)
+    leds[64] = (0,255,0)
     time.sleep(.1)
     
-    leds[124] = (255,0,0)
+    leds[124] = (0,255,0)
     time.sleep(.1)
     
-    leds[184] = (255,0,0)
+    leds[184] = (0,255,0)
     time.sleep(.1)
         
-    leds[244] = (255,0,0)
+    leds[244] = (0,255,0)
     time.sleep(.1)
 
-    leds[304] = (255,0,0)
+    leds[304] = (0,255,0)
     time.sleep(0.1)
-#H line
+#H second line
 
-    leds[121] = (255,0,0)
+    leds[121] = (0,255,0)
     time.sleep(.1)
 
-    leds[122] = (255,0,0)
+    leds[122] = (0,255,0)
     time.sleep(.1)
 
-    leds[123] = (255,0,0)
+    leds[123] = (0,255,0)
     time.sleep(.1)
 #H bridge
     
