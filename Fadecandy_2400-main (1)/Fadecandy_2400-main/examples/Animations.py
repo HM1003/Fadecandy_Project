@@ -31,15 +31,15 @@ def rainbow(pixels, order):
 
             time.sleep(0.01)
 
-choice = input("Choose animation?\n1\n2.\n")
+choice = raw_input("Choose animation?\n1.Loading Snake\n2.\n")
 
 if choice == '1':
         for led in enumerate(leds):
-                leds[led[0]] = (0,255,0)
+                leds[led[0]] = (64,224,208) #Turquoise
                 time.sleep(0.1)
                 client.put_pixels(leds)
 
-
+        
         
 ##for led in range(60): #picking out location of leds from column and rows. 
 ##    client.put_pixels(leds)
