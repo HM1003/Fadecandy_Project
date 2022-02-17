@@ -30,7 +30,8 @@ for led in range(60): #picking out location of leds from column and rows.
 
     leds[300] = (0,255,0)
     time.sleep(0.1)
-#H first line 
+    
+#H first line. Above is the values to create the first part of the letter H.
 
     leds[4] = (0,255,0)
     time.sleep(.1)
@@ -49,7 +50,8 @@ for led in range(60): #picking out location of leds from column and rows.
 
     leds[304] = (0,255,0)
     time.sleep(0.1)
-#H second line
+    
+#H second line. As all the lines in this value are from the 4th comu
 
     leds[121] = (0,255,0)
     time.sleep(.1)
@@ -59,6 +61,7 @@ for led in range(60): #picking out location of leds from column and rows.
 
     leds[123] = (0,255,0)
     time.sleep(.1)
+    
 #H bridge
     
     leds[6] = (0,255,0)
