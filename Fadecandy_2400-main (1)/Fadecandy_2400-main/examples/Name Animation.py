@@ -6,9 +6,16 @@ import re
 
 leds = [(0,0,0)]*360 #background color
 
+s = 1.0 #Maximum colour
+v = 1.0 #Maximum brightness
+
 client = opc.Client('localhost:7890') # host
 client.put_pixels(leds)
 
+def rainbow(pixels, order):
+        if order == 'asc':
+            ran == range(360)
+            
 
 for led in range(60): #picking out location of leds from column and rows. 
     client.put_pixels(leds)
