@@ -14,7 +14,7 @@ client.put_pixels(leds)
 
 def rainbow(pixels, order):
         if order == 'asc':
-            ran == range(360)
+            ran = range(360)
         elif order == 'desc':
             ran = reversed(range(360))
                 
